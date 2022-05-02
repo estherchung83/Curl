@@ -1,0 +1,7 @@
+Successful or Unsuccessful,Server Status Code,Requested URL,hostname,source IP,destination IP,source port,destination port,Server Response line
+Successful,200, http://www.softwareqatest.com/, www.softwareqatest.com/, 10.0.2.15, 216.92.49.183,56468,80, HTTP/1.1 200 OK
+Successful,200, http://www.testingmcafeesites.com/, www.testingmcafeesites.com/, 10.0.2.15, 161.69.49.22,42038,80, HTTP/1.1 200 OK
+Unsuccessful,404, http://www.example.com/anyname.html, www.example.com, 10.0.2.15, 93.184.216.34,57604,80, HTTP/1.1 404 Not Found
+Unsuccessful,404, http://www.google.com/somedoc1.html:80, www.google.com, 10.0.2.15, 172.217.5.100,47453,80, HTTP/1.1 404 Not Found
+Unsuccessful,301, http://www.ucla.edu, www.ucla.edu, 10.0.2.15, 13.226.230.4,34737,80, HTTP/1.1 301 Moved Permanently
+Unsuccessful, , http://www.google.com:443, www.google.com, 10.0.2.15, 142.250.191.68,34762,443, [Errno 104] Connection reset by peer
